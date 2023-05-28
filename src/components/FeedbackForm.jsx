@@ -24,11 +24,11 @@ function FeedbackForm({ handleAdd }) {
   };
 
   const handleClick = (e) => {
-    alert("hello");
+    //alert("hello");
     e.preventDefault();
 
     if (text.trim().length > 10) {
-      alert(text);
+      // alert(text);
       const newFeedback = {
         text,
         rating,
