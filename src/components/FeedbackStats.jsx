@@ -3,7 +3,6 @@ function FeedbackStats({ feedback }) {
     return acc + cur.rating;
   }, 0);
 
-  alert(sum);
   let avg = sum / feedback.length;
   avg = avg.toFixed(1);
   return (
