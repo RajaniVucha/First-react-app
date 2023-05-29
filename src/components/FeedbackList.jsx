@@ -20,7 +20,6 @@ function FeedbackList({ feedback, handleDelete }) {
               text={item.text}
               handleDelete={handleDelete}
             />
-            LIKES
           </motion.div>
         ))}
       </AnimatePresence>

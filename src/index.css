@@ -144,6 +144,9 @@ input:focus {
 .edit {
   right: 40px;
 }
+.thumbs-up {
+  right: 60px;
+}
 
 .btn {
   color: #fff;
