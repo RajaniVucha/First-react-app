@@ -9,21 +9,11 @@ function Header(props) {
     backgroundColor: props.bgcolor,
     color: props.textcolor,
   };
-  //create a button and onclickingthe button increase the counter
-  const increaseFunc = (e) => {
-    e.preventDefault();
-    alert("hello");
-    setDigit((prev) => {
-      return prev + 1;
-    });
-  };
+
   return (
     <header style={headerStyles}>
       <div className="container">
         <h2 style={{ color: props.textcolor }}>{props.text}</h2>
-      </div>
-      <div>
-        <button onClick={increaseFunc}>Do something</button>;
       </div>
     </header>
   );

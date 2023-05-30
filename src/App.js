@@ -14,7 +14,6 @@ function App() {
   console.log(FeedbackData1);
 
   const deleteFeedback = (id) => {
-    alert(id);
     window.alert("Are you sure you want to delete");
     setFeedback(feedback.filter((item) => item.id !== id));
   };

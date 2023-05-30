@@ -5,7 +5,7 @@ function AboutLinkIcon() {
   return (
     <div className="about">
       <Link to="/about">
-        <FaQuestion size={30} />
+        <FaQuestion size={20} color="purple" />
       </Link>
     </div>
   );
